@@ -3,7 +3,23 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.0.0"
 
+gem 'bundler'
+
 gem 'webpacker', '~> 5.0'
+
+gem 'bulma-rails', '~> 0.9.0'
+
+gem 'devise', '~> 4.4'
+
+gem 'simple_form', '~> 5.0.0'
+  
+gem 'gravatar_image_tag', '~> 1.2.0'
+
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+
+gem 'wysiwyg-rails'
+
+gem 'public_activity', '~> 1.5'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.5"
